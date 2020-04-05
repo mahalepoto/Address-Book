@@ -1,0 +1,55 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Address Book</title>
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+      <div class='container'>
+      <header>
+        <h1>Address Book</h1>
+        <hr />
+      </header>
+      <table id='table1' class='table'>
+        <input id="myInput" type="text" placeholder='Search..'>
+        <br><br>
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>
+              <input id='firstName' class='form-control' type='text' placeholder ='Name'>
+            </td>
+            <td>
+              <input id='lastName' class='form-control' type='text' placeholder ='Surname'>
+            </td>
+            <td>
+              <input id='phone' class='form-control' type='text' placeholder ='Contact Number'>
+            </td>
+            <td>
+              <input id='address' class='form-control' type='text' placeholder ='Full Postal Address'>
+            </td>
+            <td>
+              <div class='text-center'>
+                <button id='add' class='btn btn-block' >Add</button>
+              </div>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <script src='script.js'></script>
+    </body>
+  </html>
